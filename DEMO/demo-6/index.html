@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="div0">
+        <div id="top">
+            <span id="logo" >自适应网站</span>
+        </div>
+        <div id="main">
+            <ul>
+               <li>
+                   <div><img src="logo/blog.png" class="logo"></div>
+                   <div>生命中遇到最美的景致，并不需要浓墨重彩去描绘，而是平常心踩出的一串淡淡的足迹。</div>
+                   <div><img src="logo/like.png" class="like"></div>
+               </li>
+            <li>
+                <div><img src="logo/blog.png" class="logo"></div>
+                <div>生命中遇到最美的景致，并不需要浓墨重彩去描绘，而是平常心踩出的一串淡淡的足迹。</div>
+                <div><img src="logo/like.png" class="like"></div>
+            </li>
+            <li>
+                <div><img src="logo/blog.png" class="logo"></div>
+                <div>生命中遇到最美的景致，并不需要浓墨重彩去描绘，而是平常心踩出的一串淡淡的足迹。</div>
+                <div><img src="logo/like.png" class="like"></div>
+            </li>
+            <li>
+                <div><img src="logo/blog.png" class="logo"></div>
+                <div>生命中遇到最美的景致，并不需要浓墨重彩去描绘，而是平常心踩出的一串淡淡的足迹。</div>
+                <div><img src="logo/like.png" class="like"></div>
+            </li>
+            <li>
+                <div><img src="logo/blog.png" class="logo"></div>
+                <div>生命中遇到最美的景致，并不需要浓墨重彩去描绘，而是平常心踩出的一串淡淡的足迹。</div>
+                <div><img src="logo/like.png" class="like"></div>
+            </li>
+            </ul>
+        </div>
+        <div id="bottom">
+            <div>
+                <img src="logo/home.png">
+            </div>
+            <div>
+                <img src="logo/message_light.png">
+            </div>
+        </div>
+    </div>
+</body>
+    <script>
+        var c = () => {
+            // 获取设备宽度
+            let w = document.documentElement.clientWidth;
+            let n = (20 * (w / 320) > 40 ? 40 + "px" : (20 * (w / 320) + "px"));
+            document.documentElement.style.fontSize = n;
+        }
+        window.addEventListener("load", c);
+        window.addEventListener("resize", c);
+
+    </script>
+</html>
